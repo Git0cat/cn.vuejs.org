@@ -135,7 +135,7 @@ export default {
 
 如果你还在阅读，说明你使用了诸如 Babel 和 webpack 的模块系统。在这些情况下，我们推荐创建一个 `components` 目录，并将每个组件放置在其各自的文件中。
 
-然后你需要在局部注册之前导入每个你想使用的组件。例如，在一个假设的 `ComponentB.js` 或 `ComponentB.vue` 文件中：
+然后你需要在局部注册之前导入每个你想使用的组件。例如，在一个假设的 `ComponentB.js` 文件中：
 
 ```js
 import ComponentA from './ComponentA'
